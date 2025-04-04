@@ -20,6 +20,10 @@ class ComposerStaticInitc96bb2071d123d23c7334bb6258c1169
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Tests\\' => 6,
+        ),
         'P' => 
         array (
             'Prophecy\\' => 9,
@@ -49,6 +53,10 @@ class ComposerStaticInitc96bb2071d123d23c7334bb6258c1169
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
@@ -75,7 +83,7 @@ class ComposerStaticInitc96bb2071d123d23c7334bb6258c1169
         ),
         'App\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/App',
         ),
     );
 
