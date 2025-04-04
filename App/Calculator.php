@@ -16,7 +16,11 @@ class Calculator
                 return "Invalid operation";
             }
  */
-            return $this->squareRoot($parts[0]);
+            if ($parts[1] === 'sqrt') {
+                return $this->squareRoot($parts[0]);
+            } else {
+                return "Invalid input. Please follow the correct syntax.";
+            }
         }
 
         if (count($parts) === 3) {
